@@ -7,5 +7,5 @@
 
  2. Deploy the helm chart 
  ```
-helm install argilla-chart argilla/ --values argilla/values.yaml
+helm install argilla-chart argilla/ --values argilla/values.yaml --set enableOptionalResource=false
  ```
